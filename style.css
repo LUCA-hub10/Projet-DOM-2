@@ -1,0 +1,27 @@
+.container {
+    display: flex;               /* Utilise Flexbox pour le centrage */
+    justify-content: center;     /* Centre le contenu horizontalement */
+    margin-top: 20px;           /* Ajoute une marge supérieure */
+}
+
+#color-box {
+    width: 200px;               /* Définir une largeur fixe */
+    height: 200px;              /* Définir une hauteur fixe */
+    background-color: lightblue; /* Couleur d'arrière-plan par défaut */
+    margin: 20px auto;          /* Centrer le box avec une marge automatique */
+}
+
+#change-color-btn {
+    background-color: #4CAF50; /* Couleur de fond verte */
+    color: white;              /* Couleur du texte blanche */
+    padding: 10px 20px;        /* Espacement intérieur pour agrandir le bouton */
+    border: none;              /* Supprimer la bordure par défaut */
+    border-radius: 5px;       /* Arrondir les coins du bouton */
+    cursor: pointer;           /* Changer le curseur en main au survol */
+    font-size: 16px;           /* Augmenter la taille de la police */
+    transition: background-color 0.3s; /* Ajouter une transition pour l'effet de survol */
+}
+
+#change-color-btn:hover {
+    background-color: #45a049; /* Couleur de fond plus foncée au survol */
+}
